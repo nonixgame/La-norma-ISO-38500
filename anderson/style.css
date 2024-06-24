@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url("ISOS-Celer.png");
+  color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: bold;
+  animation: slideInFromTop 1s ease-out;
+}
+
+/* Estilos para la sección del héroe */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.hero-image {
+  flex: 0 0 400px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-info {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.hero-info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-info p {
+  margin-bottom: 1.5rem;
+}
+
+.bold-text {
+  font-weight: bold; /* Hacer que el texto después de "Propósito" sea más grueso */
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
